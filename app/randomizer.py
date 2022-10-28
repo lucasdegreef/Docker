@@ -52,6 +52,6 @@ async def get_interface_by_index(index: int):
 
     if(index < 0 or index > len(interfaces)-1):
         return {"error": "invalid index"}
-
+        
     return interfaces[index]
 
