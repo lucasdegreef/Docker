@@ -1,6 +1,6 @@
 version: "3.9"
 services:
  randomizer-service:
-  image: lucasdegreef/docker
+  image: lucasdegreef/pythontest
   ports:
     - "8000:8000"
